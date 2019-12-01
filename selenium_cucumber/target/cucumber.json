@@ -1,0 +1,226 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6158200000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on true car home page",
+            "match": {
+              "location": "ShopNewCarBrands.user_is_on_true_car_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T15:28:41.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4566602257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Shop for new cars",
+        "description": "",
+        "id": "shop-new-car;shop-for-new-cars;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 131215475,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 264181549,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Shop New",
+            "match": {
+              "location": "ShopNewCarBrands.user_clicks_on_Shop_New()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1755156541,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on brand \"BMW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BMW\"",
+                  "offset": 21
+                }
+              ],
+              "location": "ShopNewCarBrands.user_clicks_on_brand(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178390599,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User selects model \"m5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"m5\"",
+                  "offset": 19
+                }
+              ],
+              "location": "ShopNewCarBrands.user_selects_model(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1200338002,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User inputs zip code \"02155\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"02155\"",
+                  "offset": 21
+                }
+              ],
+              "location": "ShopNewCarBrands.user_inputs_zip_code(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72202335,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Next",
+            "match": {
+              "location": "ShopNewCarBrands.next()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2455261964,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Skip for now",
+            "match": {
+              "location": "ShopNewCarBrands.skip_for_now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cYour 20[9]20 BMW M5\u003e but was:\u003cYour 20[]20 BMW M5\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat stepDefs.ShopNewCarBrands.verify_header_is(ShopNewCarBrands.java:65)\n\tat ✽.Verify header is \"Your 20920 BMW M5\"(file:src/test/resources/features/shop_new_car.feature:27)\n",
+              "duration": 2230410922,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Verify header is \"Your 20920 BMW M5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your 20920 BMW M5\"",
+                  "offset": 17
+                }
+              ],
+              "location": "ShopNewCarBrands.verify_header_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26546,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Verify Style is \"Competition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Competition\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ShopNewCarBrands.verify_Style_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16725,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Verify Standard Features \u0026 Specs contains \"Gas 4.4L V8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gas 4.4L V8\"",
+                  "offset": 42
+                }
+              ],
+              "location": "ShopNewCarBrands.verify_Standard_Features_Specs_contains(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@truecar"
+          }
+        ]
+      }
+    ],
+    "name": "Shop new car",
+    "description": "  This feature tests shopping for new car",
+    "id": "shop-new-car",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/shop_new_car.feature",
+    "tags": [
+      {
+        "name": "@truecar",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
