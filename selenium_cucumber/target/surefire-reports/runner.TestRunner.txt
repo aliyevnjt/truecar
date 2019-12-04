@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.712 s - in runner.TestRunner
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.472 s <<< FAILURE! - in runner.TestRunner
+Shop new car.Shop for new cars  Time elapsed: 19.087 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Your 20[9]20 BMW M5> but was:<Your 20[]20 BMW M5>
+
