@@ -1,4 +1,4 @@
-@used
+@Used
 Feature: Shop used car
   This feature tests shopping for used car
 
