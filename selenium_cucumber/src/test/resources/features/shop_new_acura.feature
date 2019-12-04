@@ -1,4 +1,4 @@
-@acura
+@Acura
 Feature: Shop new Acura
   This feature tests shopping for new Acura
 
