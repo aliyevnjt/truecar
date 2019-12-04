@@ -19,7 +19,6 @@ public class ShopNewCarBrands {
 	
 	@Given("User is on true car home page")
 	public void user_is_on_true_car_home_page() {
-		
 		hp.goToHomePage(driver);
 	}
 
