@@ -29,7 +29,6 @@ public class ShopNew {
 			if(webElement.getText().equals(model)) {
 				WebDriverWait wait=new WebDriverWait(driver, 20);
 				wait.until(ExpectedConditions.elementToBeClickable(webElement)).click();
-				//webElement.click();
 			}
 		}
 	}
