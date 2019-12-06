@@ -1,4 +1,4 @@
-@truecar
+@TRUECAR
 Feature: Shop new car
   This feature tests shopping for new car
 
