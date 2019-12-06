@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ShopNew {
 	
-	public ShopNew(WebDriver driver) {
+	public ShopNew(WebDriver driver) { 
 		PageFactory.initElements(driver, this);
 	}
 	

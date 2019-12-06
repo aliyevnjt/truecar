@@ -7,7 +7,7 @@ import io.cucumber.java.Before;
 import utils.SingletonBrowser;
 
 
-public class Hooks {
+public class Hooks { 
 	WebDriver driver;
 	SingletonBrowser sb;
 	@Before
@@ -17,7 +17,7 @@ public class Hooks {
 	}
 	
 	
-	@After
+	//@After
 	public void tearDown() {
 		sb.closeDriver();
 	}

@@ -17,7 +17,7 @@ public class ShopUsedCars {
 	}
 
 	@Then("User clicks on used car brand {string}")
-	public void user_clicks_on_used_car_brand(String string) {
+	public void user_clicks_on_used_car_brand(String string) { 
 	    ShopUsed.selectBrand(driver, string);
 	}
 	

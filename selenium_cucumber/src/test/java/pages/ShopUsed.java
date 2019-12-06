@@ -28,7 +28,7 @@ public class ShopUsed {
 				wait.until(ExpectedConditions.elementToBeClickable(webElement)).click();
 			}
 		}
-	}
+	} 
 	
 	@FindBy(css = "[data-qa='UsedModelDropdown']")
 	public WebElement buttonAllModels;
