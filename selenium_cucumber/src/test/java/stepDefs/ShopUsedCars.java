@@ -10,7 +10,10 @@ import utils.SingletonBrowser;
 public class ShopUsedCars {
 	SingletonBrowser sb = SingletonBrowser.getSingletonBrowser();
 	WebDriver driver = sb.getDriver();
+	
+	
 	ShopUsed su = new ShopUsed(driver);
+	
 	@Given("User clicks on Shop Used")
 	public void user_clicks_on_Shop_Used() {
 	    su.buttonShopUsed.click();
