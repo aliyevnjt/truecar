@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(plugin = {"json:target/cucumber.json" }, 
 				features = "src/test/resources/features", 
 				glue = { "stepDefs" },
-				tags = {"@truecar"})
+				tags = {"@sellortrade"})
 
 public class TestRunner {
 

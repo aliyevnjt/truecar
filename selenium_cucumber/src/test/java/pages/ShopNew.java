@@ -65,7 +65,7 @@ public class ShopNew {
 	@FindBy (css = "[class = 'text-nowrap']:nth-of-type(1)")
 	public WebElement specs;
 	
-	//BREAK UNTIL 9.17 AM
+	
 	
 	
 }
