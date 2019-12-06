@@ -9,6 +9,7 @@ import io.cucumber.junit.Cucumber;
 				features = "src/test/resources/features", 
 				glue = { "stepDefs" },
 				tags = {"@Trade"},
+
 				dryRun = false)
 
 public class TestRunner { 
