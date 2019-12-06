@@ -1,7 +1,6 @@
 package stepDefs;
 
 import org.openqa.selenium.WebDriver;
-
 import io.cucumber.java.en.*;
 import pages.SellOrTradePage;
 import utils.SingletonBrowser;
@@ -24,6 +23,7 @@ public class SellOrTradeStep {
 	public void verify_button(String string) {
 	   
 	}
+
 
 
 
