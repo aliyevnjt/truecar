@@ -1,5 +1,7 @@
 package pages;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -39,6 +41,7 @@ public class ShopUsed {
 	
 	@FindBy(css = "[data-test='usedSearchHeading']")
 	public WebElement usedHeader;
-	
-	
+
 }
+
+

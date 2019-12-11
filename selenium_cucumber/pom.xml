@@ -16,8 +16,20 @@
 			<artifactId>cucumber-reporting</artifactId>
 			<version>4.11.2</version>
 		</dependency>
+		<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.1</version>
+</dependency>
+		<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.1.1</version>
+</dependency>
+		
 		<!-- selenium library -->
 		<dependency>
+		
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
@@ -80,7 +92,7 @@
 					<systemPropertyVariables>
 						<tags></tags>
 						<browser>chrome</browser>
-						<url>https://www.truecar.com/</url>
+						<url>https://www.etsy.com/</url>
 						<buildDirectory>${project.build.directory}</buildDirectory>
 					</systemPropertyVariables>
 				</configuration>

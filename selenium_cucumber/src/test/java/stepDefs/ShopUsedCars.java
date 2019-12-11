@@ -27,15 +27,12 @@ public class ShopUsedCars {
 	   ShopUsed.selectModel(driver, model);
 	}
 
-	@Then("Verify header contains {string}")
+	@And("Verify header contains {string}")
 	public void verify_header_contains(String expectedHeader) throws InterruptedException {
 		Thread.sleep(2000);
 	    String actualHeader = su.usedHeader.getText();
 	    assertTrue(actualHeader,actualHeader.contains(expectedHeader));
 	}
 
-	@Then("Verify location is Boston, MA")
-	public void verify_location_is_Boston_MA() {
-	    
-	}
+	
 }

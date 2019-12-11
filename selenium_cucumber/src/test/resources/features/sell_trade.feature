@@ -9,5 +9,5 @@ Feature: Sell or Trade JN
     Given User clicks on Sale and Trade
     Then Verify first header contains " Enter License Plate "
     Then Verify second header contains "Enter VIN"
-    Then Verify third header contains "Enter Mae/Model"
+    And Verify third header contains "r"
     

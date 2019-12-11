@@ -24,12 +24,14 @@ public class SellTrade {
 
 public static void verfyELP(WebDriver driver,String expected) {
 	List<WebElement> list = driver.findElements(By.cssSelector("[data-identifier=licensePlate]"));
+	boolean searchResult = false;
 	for (WebElement webElement : list) {
 		if (webElement.getText().equals(expected)) {
-			boolean searchResult=webElement.getText().contains(expected);
-	        Assert.assertTrue(searchResult);
+			searchResult=webElement.getText().contains(expected);
+	       
 		}	
 	}
+	 Assert.assertTrue(searchResult);
 }
 	public static void verfyenterVIN(WebDriver driver,String expected) {
 			

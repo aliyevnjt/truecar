@@ -8,7 +8,7 @@ public class TrueCarHomePage {
 	public void goToHomePage(WebDriver driver) {
 		String url = System.getProperty("url");
 		if(url==null) {
-			url = "https://www.truecar.com/";
+			url = "https://www.etsy.com/";
 		}
 		driver.get(url);
 	}
